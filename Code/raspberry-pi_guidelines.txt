@@ -1,0 +1,12 @@
+how to use raspberry pi-
+
+1. sudo apt-get update
+2.sudo apt-get upgrade
+3. sudo raspi-config and then go to inference ,select camera and finish.
+After this reboot the pi.Now, camera is enabled.
+4.raspistill -o <imageName.jpg> for image in jpg format.
+5.raspivid -o <videoName>.h264 -t 1000 -> 1000 means 1000 millisecond.
+6.sudo apt-get install gpac ->MP4Box
+7.MP4Box -add video.h264 <new_name_of_video.mp4>  -> To convert video from .h264 format to mp4 format.
+8.sudo apt-get install omxplayer  -> to install omxplayer
+9.omxplayer -o hdmi video1.mp4  -> to play the video1 with no laggs.
