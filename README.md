@@ -1,6 +1,10 @@
-# Border-Surveillance-Rover-RAKSHAK-
+# Rakshak
+
 RAKSHAK is a surveillance rover designed for patrolling of International Borders and various sneak operations.
-Web interface is implemented and local server is hosted to access the data by users.
-
-
 This project is being done under DESIGN PRACTICUM Course 2019.
+
+# Motivation 
+To reduce casualties of army personnel and risk of life of soldiers.
+
+
+
