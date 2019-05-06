@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- head section -->
+<head>
+  <title> Border survilliancer rover</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- external style sheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js"></script>
+
+</head>
+
+<!-- main body function -->
+<body onload="typeWriter() ;startTime()">
+
+  <div class="images">
+    <img style="width: 100% ;height:880px;" src="img/border.jpg" id="homepage" alt="Border-security">
+    <h1 class="centered" id="app"></h1> 
+    <h3 class="centered_below" ><i>(By Rakshak)</i></h3>
+    <h5 class="top-right" style="margin-top:65px;margin-left:1250px;color:black" id = "date_with_time"> </h5>
+  </div>
+
+  <div id="navbar_fixed">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark" >
+              <a class="navbar-brand" style="color:rgb(9,240,9)" href="#homepage">Home</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div  class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav" >
+                  <li class="nav-item">
+                    <a class="nav-link" style="color:rgb(9,240,9)" href="#">Images</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" style="color:rgb(9,240,9)" href="#streamLive">Livevideo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" style="color:rgb(9,240,9)" href="#">HumanDetection</a>
+                  </li>    
+                </ul>
+              </div>  
+    </nav>
+  </div>
+
+
+<!-- Live streaming video  -->
+<iframe width="100%" height="1000px" scrolling="no" name="stream" id="streamLive"
+src="http://10.7.10.186:8000/index.html">
+</iframe>
+
+<!-- Designed page -->
+<div  style="background-color:rgb(12,35,58 ); margin-bottom:0;height: 200px;">
+    <p style="text-align: center; color:white;font-size: 30px">Designed By</p>
+    <div style="margin-top: 30px">
+      <img src="img/rohit.jpg" style="border-radius: 20%;width:70px;height: 70px;margin-left:750px">
+      <img src="img/atyant.jpg" style="border-radius: 20%;width:70px;height: 70px;margin-left:200px">
+    </div>
+
+    <div style="color:white ;margin-top:5px">
+      <h6 style="margin-left:735px;margin-top:5px">Rohit Agarwal</h6>
+      <h6 style="margin-left:1040px;margin-top:-25px">Atyant</h6>
+    </div>
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/mrvautin/typewrite/master/dist/typewrite.min.js"></script>
+
+</body>
+</html>

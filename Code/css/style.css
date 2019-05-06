@@ -1,0 +1,39 @@
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+
+#navbar_fixed {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.images {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:rgb(12,35,58)
+}
+
+.top-right {
+  position: absolute;
+  top: 0px;
+  right: 16px;
+}
+
+.centered_below{
+        position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:rgb(12,35,58)
+}
