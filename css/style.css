@@ -30,10 +30,25 @@
   right: 16px;
 }
 
+.bottom-right {
+  position: absolute;
+  top: 94%;
+  left: 64%;
+  transform: translate(-50%, -50%);
+  color:black;
+}
+
 .centered_below{
         position: absolute;
   top: 57%;
   left: 50%;
   transform: translate(-50%, -50%);
   color:rgb(12,35,58)
+}
+
+img {
+  border: 2px solid black ;
+  border-radius: 4px;
+  padding: 4px;
+  /* width: 150px; */
 }
