@@ -1,5 +1,5 @@
 var i = 0;
-    var txt = 'Border surveillance and security';
+    var txt = 'Border Surveillance and Security';
     var speed = 75;
     var string ="(By Rakshak)";
     
