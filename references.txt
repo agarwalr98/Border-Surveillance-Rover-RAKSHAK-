@@ -1,0 +1,10 @@
+﻿Website for streaming - 
+http://rakshak-design-practicum.herokuapp.com
+
+References - 
+https://randomnerdtutorials.com/video-streaming-with-raspberry-pi-camera/
+https://devcenter.heroku.com/articles/git
+https://www.youtube.com/watch?v=3Zx7tGtwF5g
+https://v380-camera.com/blogs/news/v380-ip-camera-user-manual\
+
+
